@@ -8,7 +8,9 @@ function App() {
     <main>
       <Dictionary />
     </main>
-
+    <footer>
+      <p>Coded by Nataliyayaya and is open-soursed on GitHub</p>
+    </footer>
      </div>
     </div>
   );
