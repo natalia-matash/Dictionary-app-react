@@ -1,0 +1,10 @@
+.Phonetics {
+   display: flex;
+}
+
+.Phonetics p {
+   margin-right: 15px;
+   font-style: italic;
+   font-weight: 700;
+  color: #FC719B;
+}

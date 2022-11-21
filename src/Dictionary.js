@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Results from './Results';
 import axios from 'axios';
+import './Dictionary.css';
 
-export default function Dictionary() {
-   let [keyword, setKeyword] = useState('');
+export default function Dictionary(props) {
+   let [keyword, setKeyword] = useState(props.defaultKeyword);
    let [results, setResults] = useState(null);
  
 
@@ -21,10 +22,12 @@ export default function Dictionary() {
    }
    return (
       <div className='Dictionary'>
-         <form onClick={searchInfo}>
-            <input type='search' onChange={handleChange}/>
-            <input type='submit' value='Search'/>
-         </form>
+         <section>
+            <form onClick={searchInfo}>
+               <input className='input' type='search' onChange={handleChange}/>
+               <input className='btn' type='submit' value='Search'/>
+            </form>
+         </section>
          <Results results={results} />
       </div>
    )
