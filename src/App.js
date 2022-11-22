@@ -12,7 +12,7 @@ function App() {
       <Dictionary />
     </main>
     <footer>
-      <p>Coded by Nataliyayaya and is open-soursed on GitHub</p>
+      <p>Coded by Nataliyayaya and is <a href='https://github.com/Nataliyayaya/Dictionary-app-react' target='blank'>open-soursed on GitHub</a></p>
     </footer>
      </div>
     </div>

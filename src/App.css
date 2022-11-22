@@ -16,3 +16,10 @@
 
    color: #9671F4;
 }
+.App footer a{
+   color: #FC719B;
+   text-decoration: none;
+}
+.App footer a:hover{
+   text-decoration: underline;
+}
